@@ -1,0 +1,91 @@
+.container{
+    border: 1px grey solid;
+    width: 520px;
+    height: 240px;
+}
+#main{
+    width: 485px;
+    height: 180px;
+    margin-top: 45px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: flex;
+    
+}
+.Ccontainer{
+    /* display: ; */
+    border: 1px black solid;
+}
+#controlL{
+    width: 31%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cruz{
+    width: 100px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+#controlM{
+    width: 31%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+#controlR{
+    width: 38%;
+}
+#nintendo{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: fantasy;
+}
+#BR{
+    height: 50%;
+    width: 70%;
+    display: flex;
+    margin-left: 20px;
+
+}
+.contBR{
+    width: 100%;
+    height: 100%;
+    margin-left:3px;
+    margin-right: 3px;
+    align-self: end;
+}
+.cuadrado{
+    border-radius: 5%;
+    background-color: grey solid;
+    width: 100%;
+    height: 100%;
+    margin-top: 12px;
+}
+.borde{
+    border: 2px black solid;
+    width: 100%;
+    height: 65%;
+}
+.circle{
+    width: 80%;
+    height: 75%;
+    border-radius: 100%;
+    border: 2px black solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 5px 5px 5px ;
+}
+.letra{
+    text-align: end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
