@@ -1,7 +1,17 @@
 .container{
-    border: 1px grey solid;
+    border: 1px rgb(214, 214, 216) solid;
     width: 520px;
     height: 240px;
+    background-color:  rgb(214, 214, 216);
+    border-radius: 10px;
+}
+#border{
+    border: 1px rgb(102 102 102) solid;
+    border-radius: 10px;
+    width: 485px;
+    height: 180px;
+    display: flex;
+    background-color: 	rgb(102 102 102);
 }
 #main{
     width: 485px;
@@ -14,7 +24,8 @@
 }
 .Ccontainer{
     /* display: ; */
-    border: 1px black solid;
+    /* border: 1px black solid; */
+    /* background-color: 	rgb(102 102 102); */
 }
 #controlL{
     width: 31%;
@@ -29,23 +40,120 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
+#vertical{
+    grid-column: 2/3;
+    grid-row: 1/4; 
+    background-color: black;
+    border: 3px rgb(214, 214, 216) solid;
+    padding: 1px;
+    border-radius: 5px;
+}
+#horizontal{
+    grid-column: 1/4;
+    grid-row: 2/3;
+    background-color: black;
+    border: 3px rgb(214, 214, 216) solid;
+    border-radius: 5px;
+}
+#horizontal2{
+    grid-column: 1/4;
+    grid-row: 2/3;
+    background-color: black;
+    /* width: 90%;
+    height: 90%; */
+    margin: 3px;
+    border-radius: 5px;
+}
 #controlM{
     width: 31%;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.fondoraya{
+    background-color:rgb(174, 158, 141) ;
+}
+#rayaStart{
+     height: 50%;
+    background-color:rgb(174, 158, 141) ;
+}
+#raya1{
+    grid-row: 1/2;
+    margin-bottom: 4px;
+    border-radius: 5px;
+}
+#raya2{
+    grid-row: 2/4;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    border-radius: 5px;
+}
+#raya3{
+    grid-row: 4/6;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    border-radius: 5px;
+    display: flex;
+    font-family: 'Nes Controller';  
+}
+#start{
+    width: 50%;
+    font-size: x-large;
+    align-items: center;
+    padding: 5px;
+    color: rgb(233, 71, 33);  
+}
+#end{
+    width: 50%;
+    font-size: x-large;
+    align-items: center;
+    padding: 5px;
+    color: rgb(233, 71, 33);  
+}
+#raya4{
+    grid-row: 6/9;
+    background-color:rgb(214, 214, 216) ;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    border-radius: 5px;
+    padding: 5%;
+}
+#margenGrueso{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#botonSelect{
+    width: 50%;
+    height: 100%;
+}
+#botonStart{
+    width: 50%;
+    height: 100%;
 
+}
+#raya5{
+    grid-row: 9/13;
+    margin-top: 4px;
+    border-radius: 5px;
+}
+#rayaEnd{
+    height: 50%;
+    background-color:rgb(174, 158, 141) ;
+    margin-top: 8px;
 }
 
 #controlR{
     width: 38%;
 }
+
 #nintendo{
     height: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-family: fantasy;
+    font-family: 'Pretendo', sans-serif;
+    color: rgb(233, 71, 33);                                            
 }
 #BR{
     height: 50%;
@@ -69,23 +177,25 @@
     margin-top: 12px;
 }
 .borde{
-    border: 2px black solid;
+    border: 2px rgb(214, 214, 216) solid;
     width: 100%;
     height: 65%;
+    background-color: rgb(214, 214, 216) ;
+    border-radius: 5%;
 }
 .circle{
     width: 80%;
     height: 75%;
     border-radius: 100%;
-    border: 2px black solid;
+    border: 2px rgb(233, 71, 33) solid;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 5px 5px 5px 5px ;
+    background-color: rgb(233, 71, 33);
 }
 .letra{
     text-align: end;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-
+    font-family: 'Nes Controller';                      
+    color: rgb(233, 71, 33);
 }
