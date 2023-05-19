@@ -22,11 +22,6 @@
     display: flex;
     
 }
-.Ccontainer{
-    /* display: ; */
-    /* border: 1px black solid; */
-    /* background-color: 	rgb(102 102 102); */
-}
 #controlL{
     width: 31%;
     display: flex;
@@ -59,8 +54,6 @@
     grid-column: 1/4;
     grid-row: 2/3;
     background-color: black;
-    /* width: 90%;
-    height: 90%; */
     margin: 3px;
     border-radius: 5px;
 }
@@ -114,7 +107,7 @@
     background-color:rgb(214, 214, 216) ;
     margin-bottom: 4px;
     margin-top: 4px;
-    border-radius: 5px;
+    border-radius: 3px;
     padding: 5%;
 }
 #margenGrueso{
@@ -122,15 +115,32 @@
     height: 100%;
     display: flex;
     align-items: center;
+    border:  rgb(198, 198, 198) 1px solid;
+    border-radius: 3px;
 }
 #botonSelect{
     width: 50%;
     height: 100%;
+    border-radius: 5px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #botonStart{
     width: 50%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+.botonBlack{
+    background-color: rgb(27, 27, 27);
+    width: 65%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px; 
 }
 #raya5{
     grid-row: 9/13;
